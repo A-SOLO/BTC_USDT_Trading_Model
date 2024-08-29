@@ -29,7 +29,7 @@ position = 0: Denotes a neutral position, suggesting that there is no ongoing tr
 selling).
 position = -1: Corresponds to a short trade, implying that the algorithm has sold an asset.
 
-### 2. Action (The action suggested by the Gap trading strategy):
+### 2. Action (The action suggested by the Gap trading strategy(along with moving avg):
 action = 1: Indicates a signal to buy or initiate a long trade or close a short trade.
 action = 0: Represents a hold signal, advising to maintain the current position without taking any new
 actions.
@@ -56,11 +56,18 @@ Set orders to limit potential losses. Automatically exits a trade if the market 
 ### 3. Gap Strategy Threshold:
 Adjusting this parameter allows users to customize the sensitivity of the strategy to price movements, catering to different preferences or market conditions.
 
-# Backtesting Parameters :
+# Backtesting Parameters (for strategy 1):
 1. ML model Parameters (Random Forest- see the code).
 2. Gap-threshold-percentage = 0.85
 3. Stop-loss-percentage = 0.30
 4. Look-Back Window = 10 Obs.
+
+# Backtesting Parameters (for strategy 2):
+1. ML model Parameters (Random Forest- see the code)
+2. Gap-threshold-percentage = 2.5
+3. Stop-loss-percentage = 0.005
+4. Look-Back Window = 10 Obs.
+5. Moving Average: short_window = 10, long_window = 200
 
 # Random Forest Results:
 Train Set Metrics:
@@ -75,5 +82,5 @@ Test Set Metrics:
 
 # Conclusion:
 * Used the Historical BTC/USDT 4hrs data from January 1, 2018 to January 31, 2022
-* With the help of Random Forest , a simple yet powerful machine learning model and using a Gap Trading Strategy method.
+* With the help of Random Forest, a simple yet powerful machine learning model and using a Gap Trading Strategy method(along with moving avg).
 * Generated 238% return along with the max drawdown of 6.28%.
