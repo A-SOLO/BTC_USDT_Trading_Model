@@ -13,8 +13,14 @@ The original data ```btc_4h``` used in this project is historical BTC/USDT 4hrs 
 # Model Training: Random Forest Regressor
 ![newplot (3)](https://github.com/A-SOLO/BTC_USDT_Trading_Model/assets/78963312/154b5915-ee14-4c38-a94f-4ce868259977)
 
-# Strategy : Gap Trading Strategy
+# Strategy 1 : Gap Trading Strategy
 ![Picture1](https://github.com/A-SOLO/BTC_USDT_Trading_Model/assets/78963312/17bb3f08-b2c1-4087-a77a-eefa6afb3aaf)
+
+
+
+# Strategy 2 : Gap Trading strategy with Moving Average (FY 2023)
+![Gap_strat_with_Mo_AVG](https://github.com/user-attachments/assets/938e481a-bf25-4d1d-b717-94bca5824527)
+
 
 # Indicators:
 ### 1. Position:
