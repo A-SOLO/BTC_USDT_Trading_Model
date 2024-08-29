@@ -1,5 +1,5 @@
 # BTC_USDT_Trading_Model
-Algorithmic Trading Model Development for BTC/USDT Crypto Market. Crafting models that outperform benchmarks, balancing returns and risk management in the dynamic BTC/USDT market and **generating 448% return along with the max drawdown of 6.28%**.
+Algorithmic Trading Model Development for BTC/USDT Crypto Market. Crafting models that outperform benchmarks, balancing returns and risk management in the dynamic BTC/USDT market and **generating 238% return along with the max drawdown of 6.28%**.
 
 # Dataset:
 The original data ```btc_4h``` used in this project is historical BTC/USDT 4hrs data (January 1, 2018 to January 31, 2022).
@@ -70,4 +70,4 @@ Test Set Metrics:
 # Conclusion:
 * Used the Historical BTC/USDT 4hrs data from January 1, 2018 to January 31, 2022
 * With the help of Random Forest , a simple yet powerful machine learning model and using a Gap Trading Strategy method.
-* Generated 448% return along with the max drawdown of 6.28%.
+* Generated 238% return along with the max drawdown of 6.28%.
